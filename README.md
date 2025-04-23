@@ -9,6 +9,8 @@
 </p>
 <br/>
 
+> This repository is dedicated to handling issues, feature requests, and discussions related to the @zeytal/grid package. The source code for this package is maintained elsewhere in a private repository.
+
 ## Install
 
 ```sh
