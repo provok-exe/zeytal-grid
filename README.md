@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://www.npmjs.com/package/@zeytal/grid">
-    <h3 align="center">@zeytal/grid</h3>
+    <h2 align="center">@zeytal/grid</h2>
   </a>
 </p>
 
