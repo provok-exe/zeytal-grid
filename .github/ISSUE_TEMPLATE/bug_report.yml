@@ -1,0 +1,63 @@
+name: "Bug report"
+description: File a bug report for `@zeytal/grid`
+title: "[bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        > Thanks for helping us improve @zeytal/grid. Before submitting, search for open/closed issues as the issue may have already been reported/addressed.
+
+  - type: markdown
+    attributes:
+      value: |
+        If you aren't sure this is a bug or not, [open a discussion instead](https://github.com/hyperstonk/zeytal-grid/discussions).
+
+  - type: textarea
+    id: bug-description
+    attributes:
+      label: Describe the bug
+      description: A clear and concise description of what the bug is.
+      placeholder: Bug description
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: How to reproduce
+      description: A step-by-step description of how to reproduce the bug.
+      placeholder: |
+        1. Go to '...'
+        2. Click on '...'
+        3. See error
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs
+      description: "Include console logs around the time this bug occurred. Optional if provided reproduction. Do not insert an image. Copy paste the log text."
+      render: bash
+
+  - type: textarea
+    id: system-info
+    attributes:
+      label: System Info
+      description: Information about browsers, system, or binaries that's relevant.
+      render: bash
+      placeholder: System, Binaries
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Before submitting
+      description: By submitting this issue, you agree to follow our [Code of Conduct](https://github.com/hyperstonk/zeytal-grid/blob/main/.github/CODE_OF_CONDUCT.md).
+      options:
+        - label: I've made research efforts and searched the documentation
+          required: true
+        - label: I've searched for existing issues
+          required: true

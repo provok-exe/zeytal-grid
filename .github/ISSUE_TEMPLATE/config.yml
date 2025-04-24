@@ -1,0 +1,6 @@
+blank_issues_enabled: false
+
+contact_links:
+  - name: Ask a Question
+    url: https://github.com/hyperstonk/zeytal-grid/discussions
+    about: Open a discussion in our forum.
