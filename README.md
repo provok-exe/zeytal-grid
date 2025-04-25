@@ -13,11 +13,15 @@
 
 ## Install
 
-```sh
+```bash
 pnpm add @zeytal/grid
+```
 
+```bash
 yarn add @zeytal/grid
+```
 
+```bash
 npm i @zeytal/grid
 ```
 
