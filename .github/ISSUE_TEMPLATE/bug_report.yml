@@ -11,7 +11,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        If you aren't sure this is a bug or not, [open a discussion instead](https://github.com/hyperstonk/zeytal-grid/discussions).
+        If you aren't sure this is a bug or not, [open a discussion instead](https://github.com/provok-exe/zeytal-grid/discussions).
 
   - type: textarea
     id: bug-description
@@ -55,7 +55,7 @@ body:
     id: terms
     attributes:
       label: Before submitting
-      description: By submitting this issue, you agree to follow our [Code of Conduct](https://github.com/hyperstonk/zeytal-grid/blob/main/.github/CODE_OF_CONDUCT.md).
+      description: By submitting this issue, you agree to follow our [Code of Conduct](https://github.com/provok-exe/zeytal-grid/blob/main/.github/CODE_OF_CONDUCT.md).
       options:
         - label: I've made research efforts and searched the documentation
           required: true
